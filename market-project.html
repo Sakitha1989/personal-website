@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Market Pricing Project - Sakitha Ariyarathne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sakitha Ariyarathne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-fill me-1"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html"><i class="bi bi-journal-text me-1"></i>Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html"><i class="bi bi-code-square me-1"></i>Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#resume"><i class="bi bi-file-earmark-text me-1"></i>Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 mt-5">
+        <div class="container">
+            <!-- Project Header -->
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="project-icon-header d-inline-flex align-items-center justify-content-center mb-4" style="width: 100px; height: 100px; border-radius: 50%;">
+                        <i class="bi bi-currency-dollar" style="font-size: 3rem;"></i>
+                    </div>
+                    <h1 class="display-5 mb-3">Electricity Market Pricing</h1>
+                    <p class="lead">Novel stochastic programming formulations for market clearing with guaranteed cost recovery</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- Research Contributions -->
+                    <div class="business-impact mb-5">
+                        <h4><i class="bi bi-graph-up me-2"></i>Research Contributions</h4>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-shield-check"></i></div>
+                                    <div class="impact-desc">Cost recovery guarantee</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-currency-exchange"></i></div>
+                                    <div class="impact-desc">Revenue adequacy</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-lightning"></i></div>
+                                    <div class="impact-desc">Stochastic formulations</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Problem Statement -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-exclamation-triangle me-2"></i>Challenge</h4>
+                            <p class="card-text">
+                                Traditional electricity market clearing mechanisms struggle with uncertainty from renewable energy sources, 
+                                often failing to provide adequate cost recovery for generators while maintaining revenue adequacy for system operators. 
+                                This creates financial instability and discourages investment in clean energy infrastructure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Solution Overview -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-lightbulb me-2"></i>Solution</h4>
+                            <p class="card-text">
+                                Developed alternative stochastic programming formulations and pricing mechanisms that achieve:
+                            </p>
+                            <ul>
+                                <li>Scenario-specific cost recovery for generators across all market scenarios</li>
+                                <li>Revenue adequacy guarantees for system operators</li>
+                                <li>Computational efficiency through advanced optimization techniques</li>
+                                <li>Theoretical guarantees backed by rigorous mathematical analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Technical Implementation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-code-slash me-2"></i>Technical Implementation</h4>
+                            
+                            <h6>Core Technologies:</h6>
+                            <div class="tech-tags mb-3">
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">CPLEX</span>
+                                <span class="tech-tag">Stochastic Programming</span>
+                                <span class="tech-tag">Duality Theory</span>
+                                <span class="tech-tag">Game Theory</span>
+                            </div>
+
+                            <h6>Key Components:</h6>
+                            <ul>
+                                <li><strong>Alternative Market Formulations:</strong> Multiple stochastic programming models with different objective functions and constraint structures</li>
+                                <li><strong>Nonanticipativity Constraints:</strong> Ensures decisions are made without knowledge of future uncertainty realizations</li>
+                                <li><strong>Dual-Based Pricing:</strong> Novel pricing mechanisms derived from optimization dual solutions</li>
+                                <li><strong>Computational Framework:</strong> High-performance C++ implementation with CPLEX optimization solver</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Mathematical Innovation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-calculator me-2"></i>Mathematical Innovation</h4>
+                            <p class="card-text">
+                                The research introduces novel mathematical formulations addressing fundamental challenges in stochastic market design:
+                            </p>
+                            <ul>
+                                <li><strong>Scenario-Wise Cost Recovery:</strong> Ensures generator cost recovery in each individual scenario, not just in expectation</li>
+                                <li><strong>Revenue Adequacy:</strong> Guarantees sufficient revenue for system operators under all market conditions</li>
+                                <li><strong>Computational Tractability:</strong> Maintains polynomial-time solvability despite increased complexity</li>
+                                <li><strong>Theoretical Guarantees:</strong> Provides convergence and optimality proofs for the proposed algorithms</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Industry Applications -->
+                    <div class="business-value mb-4">
+                        <h5><i class="bi bi-trophy me-2"></i>Industry Applications</h5>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <h6>Energy Trading Companies</h6>
+                                <ul class="value-list">
+                                    <li>Improved risk management and pricing strategies</li>
+                                    <li>Enhanced portfolio optimization under uncertainty</li>
+                                    <li>Better hedging mechanisms for renewable portfolios</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h6>Power System Operators</h6>
+                                <ul class="value-list">
+                                    <li>Enhanced market clearing efficiency</li>
+                                    <li>Guaranteed revenue stability</li>
+                                    <li>Improved renewable energy integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results & Validation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-check-circle me-2"></i>Results & Validation</h4>
+                            <p class="card-text">
+                                Comprehensive testing on realistic power system test cases demonstrates the effectiveness of the approach:
+                            </p>
+                            <ul>
+                                <li>Validated on IEEE power system test cases with renewable uncertainty</li>
+                                <li>Improved computational efficiency compared to traditional methods</li>
+                                <li>Achieved cost recovery across all tested scenarios</li>
+                                <li>Published research available on arXiv with theoretical proofs</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Future Applications -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-rocket me-2"></i>Future Applications</h4>
+                            <p class="card-text">
+                                The methodology extends beyond electricity markets to other financial applications:
+                            </p>
+                            <ul>
+                                <li><strong>Portfolio Management:</strong> Risk-adjusted optimization with guaranteed returns</li>
+                                <li><strong>Commodity Trading:</strong> Pricing mechanisms under supply uncertainty</li>
+                                <li><strong>Financial Derivatives:</strong> Option pricing with scenario-specific guarantees</li>
+                                <li><strong>Supply Chain:</strong> Cost recovery in uncertain demand environments</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="d-flex justify-content-between mt-5">
+                        <a href="projects.html" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left me-1"></i>Back to Projects
+                        </a>
+                        <div>
+                            <a href="https://arxiv.org/abs/2305.05850" class="btn btn-primary me-2" target="_blank">
+                                <i class="bi bi-link-45deg me-1"></i>View Paper
+                            </a>
+                            <a href="https://github.com/Sakitha1989/Sakitha1989" class="btn btn-outline-primary" target="_blank">
+                                <i class="bi bi-github me-1"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="https://www.linkedin.com/in/sakitha89" class="social-link" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Sakitha1989/Sakitha1989" class="social-link" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:sakitha.shsu@gmail.com" class="social-link">
+                    <i class="bi bi-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://scholar.google.com/citations?hl=en&user=qptbYQIAAAAJ" class="social-link" target="_blank">
+                    <i class="bi bi-mortarboard"></i>
+                    <span>Scholar</span>
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2025 Sakitha Ariyarathne. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

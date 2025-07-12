@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Speed Modeling Project - Sakitha Ariyarathne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sakitha Ariyarathne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-fill me-1"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html"><i class="bi bi-journal-text me-1"></i>Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html"><i class="bi bi-code-square me-1"></i>Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#resume"><i class="bi bi-file-earmark-text me-1"></i>Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 mt-5">
+        <div class="container">
+            <!-- Project Header -->
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="project-icon-header d-inline-flex align-items-center justify-content-center mb-4" style="width: 100px; height: 100px; border-radius: 50%;">
+                        <i class="bi bi-wind" style="font-size: 3rem;"></i>
+                    </div>
+                    <h1 class="display-5 mb-3">Wind Speed Modeling & Forecasting</h1>
+                    <p class="lead">Advanced statistical simulation using change point detection for improved renewable energy forecasting</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- Research Contributions -->
+                    <div class="business-impact mb-5">
+                        <h4><i class="bi bi-graph-up me-2"></i>Research Contributions</h4>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-graph-down"></i></div>
+                                    <div class="impact-desc">Change point detection</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-arrow-repeat"></i></div>
+                                    <div class="impact-desc">Vector autoregression</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-bootstrap"></i></div>
+                                    <div class="impact-desc">Block bootstrap method</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Problem Statement -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-exclamation-triangle me-2"></i>Challenge</h4>
+                            <p class="card-text">
+                                Traditional wind speed forecasting methods fail to capture structural changes in wind patterns over time and across multiple locations. 
+                                This leads to suboptimal energy production planning and increased operational costs for wind farms and grid operators.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Solution Overview -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-lightbulb me-2"></i>Solution</h4>
+                            <p class="card-text">
+                                Developed a novel nonparametric change point detection method for multivariate wind speed time series that:
+                            </p>
+                            <ul>
+                                <li>Preserves spatio-temporal correlations across multiple wind measurement locations</li>
+                                <li>Maintains covariance structure while detecting structural breaks</li>
+                                <li>Enables more accurate scenario generation for renewable energy planning</li>
+                                <li>Improves economic dispatch optimization in power systems</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Technical Implementation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-code-slash me-2"></i>Technical Implementation</h4>
+                            
+                            <h6>Core Technologies:</h6>
+                            <div class="tech-tags mb-3">
+                                <span class="tech-tag">R</span>
+                                <span class="tech-tag">Vector Autoregression (VAR)</span>
+                                <span class="tech-tag">Block Bootstrap</span>
+                                <span class="tech-tag">Change Point Detection</span>
+                                <span class="tech-tag">Time Series Analysis</span>
+                            </div>
+
+                            <h6>Key Components:</h6>
+                            <ul>
+                                <li><strong>Multivariate Change Point Detection:</strong> Custom algorithm to identify structural breaks across multiple wind measurement stations simultaneously</li>
+                                <li><strong>VAR Model Framework:</strong> Vector autoregression models to capture cross-correlations between different wind measurement locations</li>
+                                <li><strong>Block Bootstrap Method:</strong> Preserves temporal dependencies while generating realistic wind speed scenarios</li>
+                                <li><strong>Economic Dispatch Integration:</strong> Interface with power system optimization models for real-world application</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Industry Applications -->
+                    <div class="business-value mb-4">
+                        <h5><i class="bi bi-trophy me-2"></i>Industry Applications</h5>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <h6>Wind Farm Operators</h6>
+                                <ul class="value-list">
+                                    <li>Improved energy production forecasting accuracy</li>
+                                    <li>Better maintenance scheduling based on wind patterns</li>
+                                    <li>Enhanced operational planning capabilities</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h6>Grid Operators & Energy Traders</h6>
+                                <ul class="value-list">
+                                    <li>Enhanced renewable integration planning</li>
+                                    <li>Improved grid stability and load balancing</li>
+                                    <li>Better risk assessment for wind-based portfolios</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results & Validation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-check-circle me-2"></i>Results & Validation</h4>
+                            <p class="card-text">
+                                Validated using real wind farm data, demonstrating improvements over existing methods:
+                            </p>
+                            <ul>
+                                <li>Tested on multiple years of hourly wind speed data from multiple measurement stations</li>
+                                <li>Outperformed traditional ARIMA and persistence models</li>
+                                <li>Successfully integrated with economic dispatch optimization models</li>
+                                <li>Published in Applied Energy (high-impact peer-reviewed journal)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="d-flex justify-content-between mt-5">
+                        <a href="projects.html" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left me-1"></i>Back to Projects
+                        </a>
+                        <div>
+                            <a href="Ariyarathne_Gangammanavar_Sundarajan_ChangePoint_2021.pdf" class="btn btn-primary me-2" target="_blank">
+                                <i class="bi bi-file-pdf me-1"></i>View Paper
+                            </a>
+                            <a href="https://github.com/Sakitha1989/Sakitha1989" class="btn btn-outline-primary" target="_blank">
+                                <i class="bi bi-github me-1"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="https://www.linkedin.com/in/sakitha89" class="social-link" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Sakitha1989/Sakitha1989" class="social-link" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:sakitha.shsu@gmail.com" class="social-link">
+                    <i class="bi bi-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://scholar.google.com/citations?hl=en&user=qptbYQIAAAAJ" class="social-link" target="_blank">
+                    <i class="bi bi-mortarboard"></i>
+                    <span>Scholar</span>
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2025 Sakitha Ariyarathne. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

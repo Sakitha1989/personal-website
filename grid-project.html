@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Grid Coordination Project - Sakitha Ariyarathne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sakitha Ariyarathne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-fill me-1"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html"><i class="bi bi-journal-text me-1"></i>Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html"><i class="bi bi-code-square me-1"></i>Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#resume"><i class="bi bi-file-earmark-text me-1"></i>Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 mt-5">
+        <div class="container">
+            <!-- Project Header -->
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="project-icon-header d-inline-flex align-items-center justify-content-center mb-4" style="width: 100px; height: 100px; border-radius: 50%;">
+                        <i class="bi bi-diagram-3" style="font-size: 3rem;"></i>
+                    </div>
+                    <h1 class="display-5 mb-3">Smart Grid Coordination</h1>
+                    <p class="lead">Multi-agent optimization framework for coordinated transmission-distribution operations</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- Research Contributions -->
+                    <div class="business-impact mb-5">
+                        <h4><i class="bi bi-graph-up me-2"></i>Research Contributions</h4>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-people"></i></div>
+                                    <div class="impact-desc">Multi-agent framework</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-shield-lock"></i></div>
+                                    <div class="impact-desc">Minimal information sharing</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="impact-item">
+                                    <div class="impact-number"><i class="bi bi-graph-up-arrow"></i></div>
+                                    <div class="impact-desc">Nash equilibrium</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Problem Statement -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-exclamation-triangle me-2"></i>Challenge</h4>
+                            <p class="card-text">
+                                Modern power systems require coordination between transmission system operators (TSOs) and distribution system operators (DSOs), 
+                                but traditional centralized approaches require extensive information sharing, creating privacy concerns and computational bottlenecks. 
+                                The challenge is to achieve optimal coordination with minimal information exchange.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Solution Overview -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-lightbulb me-2"></i>Solution</h4>
+                            <p class="card-text">
+                                Developed a Nash equilibrium-based multi-agent optimization framework that enables:
+                            </p>
+                            <ul>
+                                <li>Decentralized coordination between transmission and distribution systems</li>
+                                <li>Minimal information sharing while maintaining optimization efficiency</li>
+                                <li>Game-theoretic equilibrium solutions for stable system operations</li>
+                                <li>Scalable framework adaptable to different grid configurations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Technical Implementation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-code-slash me-2"></i>Technical Implementation</h4>
+                            
+                            <h6>Core Technologies:</h6>
+                            <div class="tech-tags mb-3">
+                                <span class="tech-tag">Julia</span>
+                                <span class="tech-tag">Game Theory</span>
+                                <span class="tech-tag">Nash Equilibrium</span>
+                                <span class="tech-tag">Distributed Optimization</span>
+                                <span class="tech-tag">Multi-Agent Systems</span>
+                            </div>
+
+                            <h6>Key Components:</h6>
+                            <ul>
+                                <li><strong>Multi-Agent Framework:</strong> Independent agents representing TSO and multiple DSOs with local objectives</li>
+                                <li><strong>Nash Equilibrium Algorithm:</strong> Iterative solution method converging to stable coordination equilibrium</li>
+                                <li><strong>Information Exchange Protocol:</strong> Minimal data sharing mechanism preserving operational privacy</li>
+                                <li><strong>Scalable Architecture:</strong> Framework adaptable to various grid sizes and configurations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Game Theory Innovation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-puzzle me-2"></i>Game Theory Innovation</h4>
+                            <p class="card-text">
+                                The research applies advanced game theory concepts to power system coordination:
+                            </p>
+                            <ul>
+                                <li><strong>Nash Equilibrium:</strong> Each system operator optimizes locally while considering others' actions</li>
+                                <li><strong>Generalized Nash Games:</strong> Shared constraints between agents represent physical grid limitations</li>
+                                <li><strong>Convergence Guarantees:</strong> Theoretical proofs ensuring algorithm convergence to stable solutions</li>
+                                <li><strong>Incentive Compatibility:</strong> Framework design ensures agents have incentives to participate honestly</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Industry Applications -->
+                    <div class="business-value mb-4">
+                        <h5><i class="bi bi-trophy me-2"></i>Industry Applications</h5>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <h6>Power System Operators</h6>
+                                <ul class="value-list">
+                                    <li>Improved grid coordination efficiency</li>
+                                    <li>Enhanced renewable energy integration</li>
+                                    <li>Reduced operational complexity</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h6>Regulatory Bodies & Utilities</h6>
+                                <ul class="value-list">
+                                    <li>Maintained operational privacy and data security</li>
+                                    <li>Scalable framework for different market structures</li>
+                                    <li>Compliance with distributed grid regulations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Architecture -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-diagram-2 me-2"></i>System Architecture</h4>
+                            <p class="card-text">
+                                The framework consists of distributed agents operating independently:
+                            </p>
+                            <ul>
+                                <li><strong>Transmission Agent (TSO):</strong> Manages high-voltage transmission network optimization</li>
+                                <li><strong>Distribution Agents (DSOs):</strong> Independent operators managing local distribution networks</li>
+                                <li><strong>Coordination Layer:</strong> Minimal information exchange protocol for boundary conditions</li>
+                                <li><strong>Equilibrium Solver:</strong> Distributed algorithm finding Nash equilibrium solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Results & Validation -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-check-circle me-2"></i>Results & Validation</h4>
+                            <p class="card-text">
+                                Comprehensive testing on realistic power system networks demonstrates the effectiveness of the approach:
+                            </p>
+                            <ul>
+                                <li>Tested on IEEE transmission-distribution test systems</li>
+                                <li>Improved overall system efficiency compared to non-coordinated operations</li>
+                                <li>Significant reduction in information sharing requirements</li>
+                                <li>Convergence to Nash equilibrium achieved efficiently</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Future Applications -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="bi bi-rocket me-2"></i>Broader Applications</h4>
+                            <p class="card-text">
+                                The multi-agent coordination framework extends to other distributed systems:
+                            </p>
+                            <ul>
+                                <li><strong>Supply Chain Management:</strong> Coordinated optimization across multiple suppliers</li>
+                                <li><strong>Financial Networks:</strong> Distributed portfolio optimization with privacy constraints</li>
+                                <li><strong>Cloud Computing:</strong> Resource allocation across distributed data centers</li>
+                                <li><strong>Telecommunications:</strong> Network optimization with competing service providers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="d-flex justify-content-between mt-5">
+                        <a href="projects.html" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left me-1"></i>Back to Projects
+                        </a>
+                        <div>
+                            <a href="https://scholar.smu.edu/engineering_managment_etds/16" class="btn btn-primary me-2" target="_blank">
+                                <i class="bi bi-book me-1"></i>View Dissertation
+                            </a>
+                            <a href="https://github.com/Sakitha1989/Sakitha1989" class="btn btn-outline-primary" target="_blank">
+                                <i class="bi bi-github me-1"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="https://www.linkedin.com/in/sakitha89" class="social-link" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Sakitha1989/Sakitha1989" class="social-link" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:sakitha.shsu@gmail.com" class="social-link">
+                    <i class="bi bi-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://scholar.google.com/citations?hl=en&user=qptbYQIAAAAJ" class="social-link" target="_blank">
+                    <i class="bi bi-mortarboard"></i>
+                    <span>Scholar</span>
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2025 Sakitha Ariyarathne. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
