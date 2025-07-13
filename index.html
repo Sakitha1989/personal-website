@@ -6,7 +6,7 @@
     <title>Sakitha Ariyarathne - Research Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
@@ -29,74 +29,130 @@
 
     <header id="home" class="hero-section">
         <div class="hero-background"></div>
-        <div class="container text-center position-relative">
-            <div class="profile-section">
-                <div class="profile-placeholder">
-                    <i class="bi bi-person-circle"></i>
-                </div>
-                <h1 class="display-4 mb-3">Sakitha Ariyarathne</h1>
-                <p class="lead mb-4">Operations Research Professional • BHG Financial • Data-Driven Solutions</p>
-                <div class="hero-highlights">
-                    <div class="highlight-item">
-                        <i class="bi bi-mortarboard-fill"></i>
-                        <span>PhD, SMU</span>
+        <div class="hero-content">
+            <div class="container-fluid">
+                <div class="row min-vh-100 align-items-center">
+                    <div class="col-lg-6 text-white">
+                        <div class="hero-text-content">
+                            <div class="profile-image mb-4">
+                                <img src="assets/images/Profile_pic.png" alt="Sakitha Ariyarathne" class="profile-pic">
+                            </div>
+                            <h1 class="display-3 fw-bold mb-4">Sakitha Ariyarathne</h1>
+                            <p class="lead fs-4 mb-4">Data Scientist</p>
+                            <p class="fs-5 mb-5">Transforming complex business challenges into data-driven solutions at BHG Financial</p>
+                            <div class="hero-cta">
+                                <a href="#bio" class="btn btn-light btn-lg me-3">
+                                    <i class="bi bi-person-badge me-2"></i>About Me
+                                </a>
+                                <a href="research.html" class="btn btn-outline-light btn-lg">
+                                    <i class="bi bi-journal-text me-2"></i>Research
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="highlight-item">
-                        <i class="bi bi-lightning-charge-fill"></i>
-                        <span>Power Systems</span>
-                    </div>
-                    <div class="highlight-item">
-                        <i class="bi bi-graph-up"></i>
-                        <span>Optimization</span>
+                    <div class="col-lg-6">
+                        <div class="hero-highlights-modern">
+                            <div class="highlight-card">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-mortarboard-fill"></i>
+                                </div>
+                                <h3>PhD in Operations Research</h3>
+                                <p>Southern Methodist University</p>
+                            </div>
+                            <div class="highlight-card">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                                <h3>Data Science</h3>
+                                <p>Machine learning & predictive analytics</p>
+                            </div>
+                            <div class="highlight-card">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+                                <h3>Technical Skills</h3>
+                                <p>Python, R, SQL & statistical modeling</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="bio" class="py-5 bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="text-center mb-5"><i class="bi bi-person-badge me-2"></i>About Me</h2>
-                    <div class="bio-content">
-                        <p class="lead text-center mb-4">
-                            Operations Research and Statistics professional driven by a passion for building practical, data-driven solutions that solve complex business problems.
+    <section id="bio" class="py-5">
+        <div class="container-fluid">
+            <div class="row align-items-center min-vh-75">
+                <div class="col-lg-6 pe-lg-5">
+                    <div class="bio-text-content">
+                        <h2 class="display-5 fw-bold mb-4">About Me</h2>
+                        <p class="lead fs-4 mb-4">
+                            Data Scientist specializing in optimization and statistical modeling, driven by a passion for building practical, data-driven solutions that solve complex business problems.
                         </p>
-                        <div class="text-center mb-4">
-                            <p>Currently working at <strong>BHG Financial</strong>, developing advanced optimization models and data analytics to support strategic decision-making and drive measurable impact. My professional journey bridges rigorous academic research and hands-on industry experience — from publishing peer-reviewed work to tackling real-world challenges like portfolio optimization, risk modeling, and custom analytical tools.</p>
+                        <p class="fs-5 mb-4">
+                            Currently working at <strong>BHG Financial</strong>, developing advanced optimization models and data analytics to support strategic decision-making and drive measurable impact. My professional journey bridges rigorous academic research and hands-on industry experience.
+                        </p>
+                        <p class="mb-5">
+                            From publishing peer-reviewed work to tackling real-world challenges like portfolio optimization, risk modeling, and custom analytical tools, I specialize in translating technical concepts into actionable insights.
+                        </p>
+                        <div class="bio-cta">
+                            <a href="research.html" class="btn btn-primary btn-lg me-3">
+                                <i class="bi bi-journal-text me-2"></i>View Research
+                            </a>
+                            <a href="assets/documents/Sakitha_Resume.pdf" class="btn btn-outline-primary btn-lg" download>
+                                <i class="bi bi-download me-2"></i>Download Resume
+                            </a>
                         </div>
-                        <div class="bio-highlights">
-                            <div class="bio-item">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="bio-cards-grid">
+                        <div class="bio-card">
+                            <div class="bio-card-icon">
                                 <i class="bi bi-mortarboard"></i>
-                                <div>
-                                    <h5>Education</h5>
-                                    <p><strong>Ph.D. in Operations Research</strong> - Southern Methodist University<br>
-                                    <strong>Master's in Statistics</strong> - Sam Houston State University<br>
-                                    <strong>Bachelor's in Statistics and Operations Research</strong> - University of Peradeniya, Sri Lanka</p>
-                                </div>
                             </div>
-                            <div class="bio-item">
+                            <h4>Education</h4>
+                            <ul class="bio-list">
+                                <li><strong>Ph.D. in Operations Research</strong><br>Southern Methodist University</li>
+                                <li><strong>Master's in Statistics</strong><br>Sam Houston State University</li>
+                                <li><strong>Bachelor's in Statistics and OR</strong><br>University of Peradeniya, Sri Lanka</li>
+                            </ul>
+                        </div>
+                        <div class="bio-card">
+                            <div class="bio-card-icon">
                                 <i class="bi bi-briefcase"></i>
-                                <div>
-                                    <h5>Professional Experience</h5>
-                                    <p>Currently at BHG Financial, focusing on optimization models and data analytics. Experience in translating technical concepts into actionable insights, building complex conditional logic in Shiny apps, and integrating modern statistical methods into business workflows.</p>
-                                </div>
                             </div>
-                            <div class="bio-item">
+                            <h4>Professional Focus</h4>
+                            <ul class="bio-list">
+                                <li>Data science and analytics at BHG Financial</li>
+                                <li>Machine learning and statistical modeling</li>
+                                <li>Custom analytical tools development</li>
+                                <li>Risk assessment and management</li>
+                            </ul>
+                        </div>
+                        <div class="bio-card">
+                            <div class="bio-card-icon">
                                 <i class="bi bi-lightbulb"></i>
-                                <div>
-                                    <h5>Research & Innovation</h5>
-                                    <p>Published research in Applied Energy, developing solutions for renewable energy integration, electricity market design, and smart grid coordination using advanced optimization techniques and stochastic programming.</p>
-                                </div>
                             </div>
-                            <div class="bio-item">
+                            <h4>Research Impact</h4>
+                            <ul class="bio-list">
+                                <li>Published in Applied Energy journal</li>
+                                <li>Renewable energy integration solutions</li>
+                                <li>Smart grid coordination frameworks</li>
+                                <li>Stochastic programming applications</li>
+                            </ul>
+                        </div>
+                        <div class="bio-card">
+                            <div class="bio-card-icon">
                                 <i class="bi bi-compass"></i>
-                                <div>
-                                    <h5>Personal Interests</h5>
-                                    <p>Exploring new hiking trails, traveling to experience different cultures, and collecting fridge magnets to remember every place I visit. Always excited to connect with others who share an interest in using data and analytics to make smarter decisions.</p>
-                                </div>
                             </div>
+                            <h4>Beyond Work</h4>
+                            <ul class="bio-list">
+                                <li>Hiking and outdoor exploration</li>
+                                <li>Cultural travel experiences</li>
+                                <li>Collecting travel memories</li>
+                                <li>Data analytics community</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -158,41 +214,90 @@
     </section>
 
     <section id="projects" class="py-5 bg-light">
-        <div class="container">
+        <div class="container-fluid">
             <div class="text-center mb-5">
-                <h2 class="mb-3"><i class="bi bi-gear-wide-connected me-2"></i>Current Focus</h2>
-                <p class="lead">Applying research expertise to real-world business challenges</p>
+                <h2 class="display-5 fw-bold mb-3">Current Focus & Projects</h2>
+                <p class="lead fs-4">Applying research expertise to real-world business challenges</p>
             </div>
             
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card">
-                        <div class="card-body text-center py-5">
-                            <div class="mb-4">
-                                <div class="rounded-circle bg-primary d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
-                                    <i class="bi bi-graph-up text-white" style="font-size: 2.5rem;"></i>
-                                </div>
-                            </div>
-                            <h3 class="card-title mb-3">Portfolio Optimization at BHG Financial</h3>
-                            <p class="card-text lead mb-4">
-                                Developing advanced optimization models for portfolio management, implementing risk modeling strategies, 
-                                and building custom analytical tools for strategic decision-making.
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="project-feature-card h-100">
+                        <div class="project-feature-icon">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <div class="project-feature-content">
+                            <h3 class="mb-3">Data Science at BHG Financial</h3>
+                            <p class="lead mb-4">
+                                Developing machine learning models and advanced analytics for data-driven decision making, implementing predictive modeling strategies, 
+                                and building custom analytical tools for strategic business insights.
                             </p>
-                            <div class="tech-tags justify-content-center mb-4">
+                            <div class="tech-tags mb-4">
                                 <span class="tech-tag">Python</span>
                                 <span class="tech-tag">R</span>
-                                <span class="tech-tag">Shiny</span>
-                                <span class="tech-tag">Financial Modeling</span>
-                                <span class="tech-tag">Risk Analytics</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Data Analytics</span>
+                                <span class="tech-tag">Statistical Modeling</span>
                             </div>
-                            <div class="mt-4">
-                                <a href="projects.html" class="btn btn-primary btn-lg">
-                                    <i class="bi bi-arrow-right me-2"></i>View All Projects
-                                </a>
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">ML Models</span>
+                                    <span class="metric-label">Predictive Analytics</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">Advanced</span>
+                                    <span class="metric-label">Data Science</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="row g-3 h-100">
+                        <div class="col-12">
+                            <div class="project-mini-card">
+                                <div class="project-mini-icon">
+                                    <i class="bi bi-wind"></i>
+                                </div>
+                                <div>
+                                    <h4>Wind Speed Modeling</h4>
+                                    <p>Change point detection for renewable energy forecasting</p>
+                                    <a href="wind-project.html" class="btn btn-sm btn-outline-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="project-mini-card">
+                                <div class="project-mini-icon">
+                                    <i class="bi bi-currency-dollar"></i>
+                                </div>
+                                <div>
+                                    <h4>Electricity Market Pricing</h4>
+                                    <p>Stochastic programming for market clearing optimization</p>
+                                    <a href="market-project.html" class="btn btn-sm btn-outline-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="project-mini-card">
+                                <div class="project-mini-icon">
+                                    <i class="bi bi-diagram-3"></i>
+                                </div>
+                                <div>
+                                    <h4>Smart Grid Coordination</h4>
+                                    <p>Multi-agent optimization for transmission-distribution systems</p>
+                                    <a href="grid-project.html" class="btn btn-sm btn-outline-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="projects.html" class="btn btn-primary btn-lg">
+                    <i class="bi bi-arrow-right me-2"></i>View All Projects
+                </a>
             </div>
         </div>
     </section>
@@ -201,7 +306,7 @@
         <div class="container text-center">
             <h2 class="mb-4"><i class="bi bi-file-earmark-pdf me-2"></i>Resume</h2>
             <p class="lead mb-4">Download my complete academic and professional background</p>
-            <a href="resume.pdf" class="btn btn-primary btn-lg" download>
+            <a href="assets/documents/Sakitha_Resume.pdf" class="btn btn-primary btn-lg" download>
                 <i class="bi bi-download me-2"></i>Download Resume
             </a>
         </div>
@@ -232,6 +337,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
