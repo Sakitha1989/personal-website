@@ -61,7 +61,7 @@ html {
     position: relative;
     color: white;
     overflow: hidden;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .hero-background {
@@ -110,21 +110,21 @@ html {
 .hero-content {
     position: relative;
     z-index: 2;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
 }
 
 .hero-text-content {
-    padding: 3rem;
+    padding: 2rem;
     max-width: 600px;
 }
 
 .hero-highlights-modern {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 3rem;
+    gap: 1.5rem;
+    padding: 2rem;
 }
 
 .highlight-card {
