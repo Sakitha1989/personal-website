@@ -64,9 +64,34 @@ master (main branch)
 └── Base: e99964c - Organize codebase with proper folder structure and update hero section
 ```
 
+### Automated Documentation Workflow
+
+**Established:** 2025-07-14  
+**Process:** Whenever any changes are made to the website, the following happens automatically:
+
+1. **Code changes** are implemented as requested
+2. **DEVELOPMENT_NOTES.md is automatically updated** with:
+   - Description of what was changed and why
+   - Files modified with specific line numbers  
+   - New features or fixes added
+   - Updated timestamps and version history
+3. **Both code and documentation committed together** in single commit
+4. **Pushed to GitHub** for automatic deployment
+
+**Benefit:** Documentation stays current without manual requests - every change is automatically documented.
+
 ### Making Future Changes
 
-#### Local Development Workflow
+#### Automated Development Workflow (Current Process)
+```bash
+# This happens automatically when you request changes:
+# 1. Claude makes code changes
+# 2. Claude updates DEVELOPMENT_NOTES.md 
+# 3. Both are committed together
+# 4. Pushed to GitHub for auto-deployment
+```
+
+#### Manual Development Workflow (If needed)
 ```bash
 # 1. Make your changes to files
 # 2. Check what changed
@@ -347,4 +372,4 @@ For development questions or issues:
 
 **Last Updated:** 2025-07-14
 **Maintained By:** Claude Code AI Assistant  
-**Documentation Version:** 1.1 (Consolidated from README.md and DEPLOYMENT.md)
+**Documentation Version:** 1.2 (Added automated documentation workflow)
