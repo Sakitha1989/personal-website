@@ -61,7 +61,7 @@ html {
     position: relative;
     color: white;
     overflow: hidden;
-    min-height: 80vh;
+    min-height: 40vh;
 }
 
 .hero-background {
@@ -110,21 +110,21 @@ html {
 .hero-content {
     position: relative;
     z-index: 2;
-    min-height: 80vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
 }
 
 .hero-text-content {
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     max-width: 600px;
 }
 
 .hero-highlights-modern {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 2rem;
+    gap: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
 .highlight-card {
@@ -132,7 +132,7 @@ html {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    padding: 2rem;
+    padding: 1.5rem;
     transition: all 0.3s ease;
 }
 
@@ -142,18 +142,18 @@ html {
 }
 
 .highlight-icon {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .highlight-icon i {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: #ffd700;
 }
 
